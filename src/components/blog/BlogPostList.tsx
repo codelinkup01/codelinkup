@@ -32,7 +32,9 @@ const BlogPostList = ({
     );
   }
 
-  const basePath = import.meta.env.VITE_APP_BASE_PATH;
+  // const basePath = import.meta.env.VITE_APP_BASE_PATH;
+  const basePath = "/";
+
 
   return (
     <div className="blog-posts">

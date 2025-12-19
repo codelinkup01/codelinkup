@@ -28,9 +28,9 @@ function App() {
       <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage1 />} />
-          <Route path="/home-2" element={<HomePage2 />} />
+          {/* <Route path="/home-2" element={<HomePage2 />} />
           <Route path="/home-3" element={<HomePage3 />} />
-          <Route path="/home-4" element={<HomePage4 />} />
+          <Route path="/home-4" element={<HomePage4 />} /> */}
           <Route path="/about" element={<AboutPage />} />
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogDetailPage />} />

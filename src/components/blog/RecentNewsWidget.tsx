@@ -6,7 +6,9 @@ interface RecentNewsWidgetProps {
 }
 
 const RecentNewsWidget = ({ recentPosts }: RecentNewsWidgetProps) => {
-  const basePath = import.meta.env.VITE_APP_BASE_PATH;
+  // const basePath = import.meta.env.VITE_APP_BASE_PATH;
+  const basePath = "/";
+
 
   return (
     <div className="single-sidebar-widget">

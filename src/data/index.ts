@@ -538,7 +538,7 @@ const menuData = [
   {
     title: "Home",
     link: "/",
-    hasDropdown: true,
+    hasDropdown: false,
     isHomemenu: true,
     submenu: [
       {
@@ -573,12 +573,17 @@ const menuData = [
     hasDropdown: true,
     submenu: [
       {
-        title: "Services",
+        title: "Digital Marketing",
         link: "/service",
         hasDropdown: false,
       },
       {
-        title: "Services Details",
+        title: "Consultancy",
+        link: "/service/advanced-data-analytics",
+        hasDropdown: false,
+      },
+       {
+        title: "Web Solution",
         link: "/service/advanced-data-analytics",
         hasDropdown: false,
       },

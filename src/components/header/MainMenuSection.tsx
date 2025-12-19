@@ -17,7 +17,7 @@ const MainMenuSection = React.memo(() => {
         >
           <Link to={menuItem.link}>
             {menuItem.title}
-            {menuItem.hasDropdown && <i className="fas fa-chevron-down"></i>}
+            {menuItem.hasDropdown}
           </Link>
           {menuItem.hasDropdown && menuItem.submenu && (
             <ul
@@ -33,12 +33,7 @@ const MainMenuSection = React.memo(() => {
                           className="col homemenu"
                         >
                           <div className="homemenu-thumb">
-                            <Image
-                              src={subMenuItem.img || ""}
-                              alt="img"
-                              width={217}
-                              height={271}
-                            />
+                           
                             <div className="demo-button">
                               <Link to={subMenuItem.link} className="theme-btn">
                                 Demo Page
@@ -57,7 +52,8 @@ const MainMenuSection = React.memo(() => {
                     </div>
                   </div>
                 </li>
-              ) : (
+              )
+               : (
                 menuItem.submenu.map((subMenuItem: MenuItem) => (
                   <li
                     key={`submenu-${subMenuItem.title}-${subMenuItem.link}`}
@@ -86,7 +82,7 @@ const MainMenuSection = React.memo(() => {
                 ))
               )}
             </ul>
-          )}
+  )}
         </li>
 
         {/* Special mobile-only home menu */}

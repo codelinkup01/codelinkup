@@ -78,7 +78,7 @@ const HeaderSection = ({ variant }: Props) => {
                 <div
                   className="sidebar__toggle"
                   role="button"
-                  onClick={toggleMobileMenu}
+                  onAbort={toggleMobileMenu}
                 >
                   <i className="fal fa-bars"></i>
                 </div>

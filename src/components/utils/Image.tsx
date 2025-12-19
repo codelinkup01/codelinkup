@@ -15,7 +15,7 @@ const Image = forwardRef<HTMLImageElement, Props>(
     return (
       <img
         ref={ref}
-        src={`${basePath}${src}`}
+        src={`/${src}`}
         alt={alt}
         className={className}
         width={width}
