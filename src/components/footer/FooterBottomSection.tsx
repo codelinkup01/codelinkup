@@ -9,7 +9,7 @@ const FooterBottomSection = ({ variant }: Props) => {
       <div className="container">
         <div className="footer-wrapper d-flex align-items-center justify-content-between">
           <p>
-            Copyright {new Date().getFullYear()} All - Rights Reserved By PreoIt
+            Copyright {new Date().getFullYear()} All - Rights Reserved By Codelinkup
           </p>
 
           <ul className="footer-menu">

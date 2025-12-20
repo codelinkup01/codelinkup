@@ -11,7 +11,7 @@ const AboutCompanySection2 = () => {
             More than 3000+ <br /> Projects in 120+ Countries
           </h2>
           <p className="text-white">
-            Welcome to SEOZ your trusted partner for comprehensive SEO and{" "}
+            Welcome to Codelinkup your trusted partner for comprehensive SEO and{" "}
             <br />
             digital marketing solutions with our proven expertise
           </p>

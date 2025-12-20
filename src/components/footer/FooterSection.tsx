@@ -3,9 +3,14 @@ import NewsletterForm from "../forms/NewsletterForm";
 import FooterBottomSection from "./FooterBottomSection";
 import Image from "../utils/Image";
 
+
+
 const FooterSection = () => {
   return (
-    <section className="footer-section fix footer-bg">
+    <section
+  className="footer-section fix"
+  style={{ backgroundColor: "#6c57d2" }}
+>
       <div className="container">
         <div className="footer-widget-wrapper">
           <div className="row">
@@ -21,17 +26,17 @@ const FooterSection = () => {
                 <div className="widget-head">
                   <Link to="/">
                     <Image
-                      src="assets/img/footer/Logo.png"
+                      src="assets\img\footer\footer-logo.png"
                       alt="img"
-                      width={135}
-                      height={47}
+                      width={100}
+                      height={90}
                     />
                   </Link>
                 </div>
                 <div className="footer-content">
                   <p>
-                    The time it will take for your website's search engine
-                    rankings to begin improving.
+                    CodelinkUp is your trusted partner for comprehensive SEO and
+                    digital marketing solutions.
                   </p>
                   <div className="social-icon">
                     <a href="#">
@@ -64,19 +69,16 @@ const FooterSection = () => {
                 </div>
                 <ul className="list-area">
                   <li>
-                    <Link to="/service">SEO for Small Business</Link>
+                    <Link to="/service">Digital Marketing solutions</Link>
                   </li>
                   <li>
-                    <Link to="/service">SEO for Local Services</Link>
+                    <Link to="/service">Web Development</Link>
                   </li>
                   <li>
-                    <Link to="/service">Enterprise SEO</Link>
+                    <Link to="/service">App Development</Link>
                   </li>
                   <li>
-                    <Link to="/service">National SEO</Link>
-                  </li>
-                  <li>
-                    <Link to="/service">SEO Optimization</Link>
+                    <Link to="/service">Custom Software Development</Link>
                   </li>
                 </ul>
               </div>
@@ -113,10 +115,10 @@ const FooterSection = () => {
                       <h5>Mail Us</h5>
                       <p>
                         <a
-                          href="mailto:helloseoz@gmial.com"
+                          href="mailto:info@codelinkup.com"
                           className="text-white"
                         >
-                          helloseoz@gmial.com
+                          info@codelinkup.com
                         </a>
                       </p>
                     </div>
@@ -147,8 +149,8 @@ const FooterSection = () => {
                 </div>
                 <div className="footer-content">
                   <p>
-                    Effective SEO strategies not only elevate a website's
-                    visibility but also drive
+                    Stay updated with our latest news and offers. Subscribe to our
+                    newsletter.
                   </p>
                   <NewsletterForm />
                 </div>

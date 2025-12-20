@@ -6,15 +6,13 @@ const ServiceSection = () => {
     <section className="service-section fix section-padding">
       <div className="container">
         <div className="section-title text-center">
-          <span className="fade-in">Welcome to SEOZ</span>
+          <span className="fade-in">Welcome to CodeLinkup</span>
           <h2 className="char-animation">
             Generating New <br />
             Customers Via Online Mode
           </h2>
           <p className="mt-3">
-            Welcome to SEOZ your trusted partner for comprehensive SEO and
-            digital marketing solutions. With <br /> our proven expertise and
-            innovative strategies the digital landscape.
+            Welcome to CodelinkUp – your partner in building powerful digital experiences. From web and app development to custom software and digital marketing, we deliver innovative solutions that drive growth and success for your business.
           </p>
         </div>
 
@@ -30,9 +28,8 @@ const ServiceSection = () => {
               data-aos-once="true"
             >
               <div
-                className={`service-card-items-1 ${
-                  index % 2 === 0 ? "item_right_1" : "item_left_1"
-                }`}
+                className={`service-card-items-1 ${index % 2 === 0 ? "item_right_1" : "item_left_1"
+                  }`}
               >
                 <div className={`service-icon color-${index + 1}`}>
                   <i className={service.iconClass}></i>

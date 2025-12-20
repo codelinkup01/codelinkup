@@ -10,7 +10,7 @@ const AboutSection = () => {
             <div className="col-lg-6">
               <div className="about-img fix appear_left fade-in">
                 <Image
-                  src="assets/img/about/Frame.png"
+                  src="assets/img/about/hh-2.avif"
                   alt="img"
                   width={636}
                   height={568}
@@ -20,14 +20,14 @@ const AboutSection = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 <div className="section-title mb-0">
-                  <span className="fade-in">About SEOZ</span>
+                  <span className="fade-in">About Codelinkup</span>
                   <h2 className="char-animation">
                     Why You Need SEO & <br /> Digital Marketing Services
                   </h2>
                 </div>
 
                 <p className="about-text">
-                  Welcome to SEOZ your trusted partner for comprehensive SEO and
+                  Welcome to codelinkup your trusted partner for comprehensive SEO and
                   digital marketing solutions with our proven expertise
                 </p>
 
@@ -38,7 +38,7 @@ const AboutSection = () => {
                   <div className="content">
                     <h3>Media Management</h3>
                     <p>
-                      Welcome to SEOZ your trusted partner for comprehensive SEO
+                      Welcome to Codelinkup your trusted partner for comprehensive SEO
                       and digital marketing solutions.
                     </p>
                   </div>

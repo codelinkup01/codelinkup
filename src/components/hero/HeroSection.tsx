@@ -25,19 +25,19 @@ const HeroSection = () => {
           <div className="col-lg-6">
             <div className="hero-content">
               <h1 className="char-animation">
-                Boost Brand with Professional SEO and Marketing
+                Complete Digital Solutions by codeLinkup
               </h1>
               <p className="">
                 You can use search engine optimize and our SEO agency.
               </p>
 
               <div className="client-info smooth-fade-in fade-in">
-                <Image
+                {/* <Image
                   src="assets/img/hero/client-info.png"
                   alt="img"
                   width={165}
                   height={61}
-                />
+                /> */}
 
                 <Image
                   src="assets/img/hero/client-info-letter.png"
@@ -46,7 +46,7 @@ const HeroSection = () => {
                   height={61}
                 />
               </div>
-              <div className="hero-btn smooth-fade-in fade-in">
+              {/* <div className="hero-btn smooth-fade-in fade-in">
                 <Link to="/contact" className="theme-btn">
                   Get Started
                   <i className="far fa-arrow-right"></i>
@@ -55,17 +55,17 @@ const HeroSection = () => {
                   Explore More
                   <i className="far fa-arrow-right"></i>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-6">
             <div className="hero-img">
               <Image
-                src="assets/img/hero/hero-1-img.png"
+                src="assets\img\hero\hh-1 (1).webp"
                 alt="img"
                 className={'smooth-fade-in fade-in'}
-                width={530}
-                height={755}
+                width={600}
+                height={600}
               />
               <div className="box-shape float-bob-y">
                 <Image
@@ -77,8 +77,8 @@ const HeroSection = () => {
               </div>
 
               <div className="box-shape-2 float-bob-y">
-                <Image
-                  src="assets/img/hero/box-shape.png"
+                <Image 
+                src="assets/img/hero/box-shape.png"
                   alt="img"
                   width={321}
                   height={230}

@@ -11,7 +11,7 @@ import FooterSection from "../components/footer/FooterSection";
 import HeaderSection from "../components/header/HeaderSection";
 import HeroSection from "../components/hero/HeroSection";
 import MobileMenuModal from "../components/modal/MobileMenuModal";
-import PricingSection from "../components/pricing/PricingSection";
+// import PricingSection from "../components/pricing/PricingSection";
 import ProjectSection from "../components/project/ProjectSection";
 import ServiceSection from "../components/service/ServiceSection";
 import ServiceSection2 from "../components/service/ServiceSection2";
@@ -30,7 +30,7 @@ const HomePage1 = () => {
         <BrandSection />
         <CoreAdvantageSection />
         <CounterSection />
-        <PricingSection />
+        {/* <PricingSection /> */}
         <CtaSection />
         <ProjectSection />
         <TestimonySection />

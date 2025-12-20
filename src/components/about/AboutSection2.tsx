@@ -38,14 +38,14 @@ const AboutSection2 = ({ variant }: Props) => {
             <div className="col-lg-6">
               <div className="about-content">
                 <div className="section-title mb-0 text-start">
-                  <span className="fade-in">Welcome to SEOZ</span>
+                  <span className="fade-in">Welcome to CodeLinkup</span>
                   <h2 className="char-animation">
                     Generating New ​Customers via Online Mode
                   </h2>
                 </div>
 
                 <p className="about-text">
-                  Welcome to SEOZ your trusted partner for comprehensive SEO and
+                  Welcome to CodeLinkup your trusted partner for comprehensive SEO and
                   digital marketing solutions with our proven expertise
                 </p>
 
@@ -63,7 +63,7 @@ const AboutSection2 = ({ variant }: Props) => {
                   <div className="content">
                     <h3>Market Growth Research</h3>
                     <p>
-                      Welcome to SEOZ your trusted partner for comprehensive SEO
+                      Welcome to Codelinkup your trusted partner for comprehensive SEO
                       and digital marketing solutions.
                     </p>
                   </div>
@@ -84,7 +84,7 @@ const AboutSection2 = ({ variant }: Props) => {
                   <div className="content">
                     <h3>Market Growth Research</h3>
                     <p>
-                      Welcome to SEOZ your trusted partner for comprehensive SEO
+                      Welcome to CodeLinkup your trusted partner for comprehensive SEO
                       and digital marketing solutions.
                     </p>
                   </div>
@@ -107,7 +107,7 @@ const AboutSection2 = ({ variant }: Props) => {
               <i className="flaticon-video-marketing-1"></i>
             </div>
             <div className="about-content">
-              <h3>Advanced data Analytics</h3>
+              <h3>Digital Marketing</h3>
               <p>
                 Mauris sem ante, iaculis eget nisl placerat hendrerit.
                 Suspendisse velit for

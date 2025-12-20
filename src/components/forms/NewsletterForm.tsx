@@ -137,7 +137,7 @@ const NewsletterForm = ({ style }: Props) => {
 
         {style === "style-2" || style === "style-3" ? (
           <button
-            type="submit"
+            type="submit" 
             className={clsx(
               `${style === "style-2" ? "icon-btn" : "submit-btn"}`,
               {
@@ -166,7 +166,7 @@ const NewsletterForm = ({ style }: Props) => {
           </button>
         ) : (
           <button
-            type="submit"
+            type="submit" style={{ backgroundColor: "#003566" }}
             className={clsx("theme-btn", "w-100", {
               "is-pending": isSubmitting,
             })}

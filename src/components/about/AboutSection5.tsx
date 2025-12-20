@@ -28,7 +28,7 @@ const AboutSection5 = () => {
             <div className="col-xl-6">
               <div className="about-contents">
                 <div className="section-title mb-0">
-                  <span className="fade-in">Welcome to SEOZ</span>
+                  <span className="fade-in">Welcome to Codelinkup</span>
                   <h2 className="text-white char-animation">
                     Generating New <br /> Customers via Online Mode
                   </h2>

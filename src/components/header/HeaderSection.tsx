@@ -43,10 +43,10 @@ const HeaderSection = ({ variant }: Props) => {
                   />
                 ) : (
                   <Image
-                    src="assets/img/logo/black-logo.svg"
+        src="assets\img\logo\main-logo.png"
                     alt="logo-img"
-                    width={135}
-                    height={47}
+                    width={180}
+                    height={60}
                   />
                 )}
               </Link>
@@ -60,7 +60,7 @@ const HeaderSection = ({ variant }: Props) => {
                   Support: <a href="tel:88812345678">(888) 1234-5678</a>
                 </div>
               )}
-              {variant ? (
+              {/* {variant ? (
                 <div className="header-button">
                   <Link to="/contact" className="theme-btn">
                     Get Started
@@ -72,7 +72,7 @@ const HeaderSection = ({ variant }: Props) => {
                   Get Started
                   <i className="far fa-arrow-right"></i>
                 </Link>
-              )}
+              )} */}
 
               <div className="header__hamburger d-xl-none my-auto">
                 <div

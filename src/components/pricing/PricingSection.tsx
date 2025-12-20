@@ -9,10 +9,8 @@ const PricingSection = ({ variant }: Props) => {
 
   return (
     <section
-      className={`pricing-section ${
-        variant ? "" : "has-bg"
-      } fix section-padding`}
-    >
+      className={`pricing-section ${variant ? "" : "has-bg"
+        } fix section-padding`}>
       <div className="container">
         <div className="section-title text-center">
           <span className="fade-in">Our Pricing Plan</span>
@@ -20,9 +18,7 @@ const PricingSection = ({ variant }: Props) => {
             Choice Best & Reliable Pricing Plan
           </h2>
           <p className="mt-3">
-            Welcome to SEOZ your trusted partner for comprehensive SEO and
-            digital marketing solutions. With <br /> our proven expertise and
-            innovative strategies the digital landscape.
+            Welcome to CodelinkUp – your partner in building powerful digital experiences. From web and app development to custom software and digital marketing, we deliver innovative solutions that drive growth and success for your business.
           </p>
           <div className="d-flex justify-content-center mt-3 mt-md-0">
             <div className="pricing-two__tab">

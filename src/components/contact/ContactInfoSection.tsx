@@ -49,10 +49,10 @@ const ContactInfoSection = () => {
               <i className="fas fa-envelope"></i>
             </div>
             <div className="content">
-              <h3>Call Us</h3>
+              <h3>Mail Us</h3>
               <p>
-                <a href="mailto:info@example.com" className="link">
-                  info@example.com
+                <a href="mailto:info@codelinkup.com" className="link">
+                  info@codelinkup.com
                 </a>
               </p>
             </div>

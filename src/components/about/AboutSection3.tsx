@@ -21,22 +21,22 @@ const AboutSection3 = () => {
             <div className="col-xl-6 col-lg-6">
               <div className="about-content-3">
                 <div className="section-title mb-0">
-                  <span className="fade-in">Welcome to SEOZ</span>
+                  <span className="fade-in">Welcome to CodeLinkup</span>
                   <h2 className="char-animation">
                     Generating New <br /> Customers via Online Mode
                   </h2>
                 </div>
 
                 <p className="about-text-3">
-                  Welcome to SEOZ your trusted partner for comprehensive SEO and
+                  Welcome to Codelinkup your trusted partner for comprehensive SEO and
                   digital marketing solutions. With our proven expertise.
                 </p>
-                <div className="about-btn">
+                {/* <div className="about-btn">
                   <Link to="/contact" className="theme-btn">
                     Get Started
                     <i className="far fa-arrow-right"></i>
                   </Link>
-                </div>
+                </div> */}
                 <ul className="list-items">
                   <li>
                     <i className="flaticon-check"></i>

@@ -22,7 +22,7 @@ const CoreAdvantageSection = ({ variant }: Props) => {
                   </h2>
                 </div>
                 <p className="choose-us-text">
-                  Welcome to SEOZ your trusted partner for comprehensive SEO and{" "}
+                  Welcome to Codelinkup your trusted partner for comprehensive SEO and{" "}
                   <br /> digital marketing solutions with our proven expertise
                 </p>
                 <div className="icon-box-items">
@@ -40,8 +40,7 @@ const CoreAdvantageSection = ({ variant }: Props) => {
                     <div className="content">
                       <h6>Our Mission</h6>
                       <h5>
-                        We strive to be more than just a service <br />{" "}
-                        provider; we aim to be trusted SEOZ
+                        Our mission is to empower businesses with innovative<br />{" "} digital solutions that drive growth and efficiency.
                       </h5>
                     </div>
                   </div>
@@ -59,8 +58,8 @@ const CoreAdvantageSection = ({ variant }: Props) => {
                     <div className="content">
                       <h6>Our Vision</h6>
                       <h5>
-                        We aspire to create a world where every <br /> business
-                        owner feels empowered
+                        Our vision is to be a leading provider of innovative digital solutions, transforming the way businesses connect, operate, and grow.
+
                       </h5>
                     </div>
                   </div>
@@ -92,7 +91,7 @@ const CoreAdvantageSection = ({ variant }: Props) => {
             <div className="col-lg-6">
               <div className="choose-us-img agn-choose-5-img fade-in">
                 <Image
-                  src="assets/img/choose-us/choose-us.png"
+                  src="assets/img/choose-us/hh-3.jpg"
                   alt="img"
                   width={636}
                   height={573}

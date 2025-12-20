@@ -5,7 +5,7 @@ const aboutCompanyData = [
     iconStyleClass: "",
     title: "Visible Ranking \nImprovement Solutions",
     description:
-      "Our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business. Nullam vel accumsan nisi.",
+      "our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business. Nullam vel accumsan nisi.",
     extraClass: "item_right_1",
   },
   {
@@ -34,7 +34,7 @@ const blogMainPosts = [
     title: "The Power of Social Media Marketing & Design",
     slug: "power-of-social-media-marketing-design",
     author: "Salman",
-    image: "assets/img/news/post-1.jpg",
+    image: "assets/img/news/hh-6.jpeg",
     content:
       "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.",
     category: "Business",
@@ -48,7 +48,7 @@ const blogMainPosts = [
     title: "The Vital Importance of SEO in Digital Marketing",
     slug: "vital-importance-of-seo-digital-marketing",
     author: "Salman",
-    image: "assets/img/news/post-2.jpg",
+    image: "assets/img/news/hh-7.jpeg",
     content:
       "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.",
     category: "Technology",
@@ -62,7 +62,7 @@ const blogMainPosts = [
     title: "Factories technologies in interactive and plants",
     slug: "factories-technologies-interactive-plants",
     author: "Salman",
-    image: "assets/img/news/post-3.jpg",
+    image:"assets/img/news/hh-8.jpeg",
     content:
       "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised words which don't look even slight believable. If you are going to use a passage of Lorem Ipsum.",
     category: "IT Solutions",
@@ -365,33 +365,33 @@ const faqData = [
   {
     id: 1,
     question:
-      "1. How long will it take before I see better rankings in google?",
+      "1.What services does CodelinkUp offer?",
     answer:
-      "The time it will take for your website's search engine rankings to begin improving depends on several of its characteristics prior to optimization. Older websites, with diverse backlink portfolios and more trust from search engines",
+      "CodelinkUp provides web design & development, Android and iOS app development, custom software development, SEO, and complete digital marketing solutions.",
   },
   {
     id: 2,
-    question: "2. How long do search engine results last?",
+    question: "2. How can CodelinkUp help grow my business digitally?",
     answer:
-      "The time it will take for your website's search engine rankings to begin improving depends on several of its characteristics prior to optimization. Older websites, with diverse backlink portfolios and more trust from search engines",
+      "CodelinkUp provides web design & development, Android and iOS app development, custom software development, SEO, and complete digital marketing solutions.",
   },
   {
     id: 3,
-    question: "3. Is travel insurance included in the package?",
+    question: "3. Do you provide customized solutions for different businesses?",
     answer:
-      "The time it will take for your website's search engine rankings to begin improving depends on several of its characteristics prior to optimization. Older websites, with diverse backlink portfolios and more trust from search engines",
+      "Yes, all our solutions are fully customized based on your business goals, industry requirements, and target audience.",
   },
   {
     id: 4,
-    question: "4. Why should I choose Springboard SEO?",
+    question: "4. Why should I choose CodelinkUp?",
     answer:
-      "The time it will take for your website's search engine rankings to begin improving depends on several of its characteristics prior to optimization. Older websites, with diverse backlink portfolios and more trust from search engines",
+      "We focus on quality, transparency, innovation, and long-term partnerships while delivering scalable and result-driven digital solutions.",
   },
   {
     id: 5,
-    question: "5. How much does search engine optimization cost?",
+    question: "5. Do you design mobile-friendly and responsive websites?",
     answer:
-      "The time it will take for your website's search engine rankings to begin improving depends on several of its characteristics prior to optimization. Older websites, with diverse backlink portfolios and more trust from search engines",
+      "Yes, all our websites are fully responsive and optimized for mobile, tablet, and desktop devices.",
   },
 ];
 
@@ -589,23 +589,23 @@ const menuData = [
       },
     ],
   },
-  {
-    title: "Portfolio",
-    link: "/project",
-    hasDropdown: true,
-    submenu: [
-      {
-        title: "Portfolio",
-        link: "/project",
-        hasDropdown: false,
-      },
-      {
-        title: "Portfolio Details",
-        link: "/project/seo-campaign-analytics",
-        hasDropdown: false,
-      },
-    ],
-  },
+  // {
+  //   title: "Portfolio",
+  //   link: "/project",
+  //   hasDropdown: true,
+  //   submenu: [
+  //     {
+  //       title: "Portfolio",
+  //       link: "/project",
+  //       hasDropdown: false,
+  //     },
+  //     {
+  //       title: "Portfolio Details",
+  //       link: "/project/seo-campaign-analytics",
+  //       hasDropdown: false,
+  //     },
+  //   ],
+  // },
   {
     title: "Pages",
     link: "#",
@@ -633,11 +633,11 @@ const menuData = [
           },
         ],
       },
-      {
-        title: "Pricing Plan",
-        link: "/pricing",
-        hasDropdown: false,
-      },
+      // {
+      //   title: "Pricing Plan",
+      //   link: "/pricing",
+      //   hasDropdown: false,
+      // },
       {
         title: "Our Faq",
         link: "/faq",
@@ -930,10 +930,9 @@ const services = [
     iconClass: "flaticon-seo",
     detailImg: "assets/img/service/service-details-01.jpg",
     iconBgImg: "assets/img/service/icon-bg-1.png",
-    title: "Advanced Data\nAnalytics",
+    title: "Digital Marketing\nServices",
     description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
-    slug: "advanced-data-analytics",
+      "We provide result-driven digital marketing solutions to increase your brand visibility, reach the right audience, and generate quality leads.",
     width: 87,
     height: 84,
   },
@@ -942,10 +941,9 @@ const services = [
     iconClass: "flaticon-email-marketing-1",
     detailImg: "assets/img/service/service-details-02.jpg",
     iconBgImg: "assets/img/service/icon-bg-2.png",
-    title: "Conversion Rate\nOptimization",
+    title: "Web Development",
     description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
-    slug: "conversion-rate-optimization",
+      "We offer professional web development services to create fast, secure, and user-friendly websites tailored to your business needsOur websites are responsive, scalable, and designed to deliver a seamless user experience across all devices.",
     width: 85,
     height: 88,
   },
@@ -954,10 +952,10 @@ const services = [
     iconClass: "flaticon-performance",
     detailImg: "assets/img/service/service-details-03.jpg",
     iconBgImg: "assets/img/service/icon-bg-3.png",
-    title: "Search Engine\nOptimization",
+    title: "App Development",
     description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
-    slug: "search-engine-optimization",
+      "We provide reliable app development services to build high-performance, user-friendly mobile applications for Android and iOS.",
+    slug: "App-development",
     width: 87,
     height: 84,
   },
@@ -966,9 +964,9 @@ const services = [
     iconClass: "flaticon-email-marketing",
     detailImg: "assets/img/service/service-details-04.jpg",
     iconBgImg: "assets/img/service/icon-bg-4.png",
-    title: "Paid Search\nMarketing",
+    title: "Custom Software\nDevelopment",
     description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
+      "We offer custom software development solutions tailored to your business needs, ensuring efficiency, scalability, and seamless integration.",
     slug: "paid-search-marketing",
     width: 85,
     height: 88,
@@ -1031,7 +1029,7 @@ const homeOneServices = [
     height: 114,
     title: "Search Engine Optimization (SEO)",
     description:
-      "We pride ourselves on delivering a value proposition that goes beyond expectations. Our approach is centered on understanding.",
+      "We provide SEO services to improve your website’s visibility, drive organic traffic, and boost search engine rankings.",
     cardClass: "border-radius-style",
   },
   {
@@ -1041,7 +1039,7 @@ const homeOneServices = [
     height: 120,
     title: "Website Design and Development",
     description:
-      "We pride ourselves on delivering a value proposition that goes beyond expectations. Our approach is centered on understanding.",
+      "We offer website design and development services to create visually appealing, responsive, and user-friendly websites.",
     cardClass: "bg-1",
   },
   {
@@ -1049,9 +1047,9 @@ const homeOneServices = [
     imageSrc: "assets/img/service/icon-03.png",
     width: 120,
     height: 120,
-    title: "Pay-Per-Click (PPC) Advertising",
+    title: "Custom Software Development",
     description:
-      "We pride ourselves on delivering a value proposition that goes beyond expectations. Our approach is centered on understanding.",
+      "We provide custom software development services to create tailored solutions that meet your unique business requirements.",
     cardClass: "bg-2",
   },
   {
@@ -1059,9 +1057,9 @@ const homeOneServices = [
     imageSrc: "assets/img/service/icon-04.png",
     width: 114,
     height: 114,
-    title: "Email & Social Media Marketing",
+    title: "Android and iOS Development",
     description:
-      "We pride ourselves on delivering a value proposition that goes beyond expectations. Our approach is centered on understanding.",
+      "We specialize in Android and iOS app development, creating high-performance, user-friendly mobile applications for both platforms.",
     cardClass: "bg-3",
   },
 ];
@@ -1100,7 +1098,7 @@ const testimonialData = [
     quoteImageUrl: "assets/img/testimonial/01.png",
     quoteText:
       "“Etiam viverra purus sed aliquet tincidunt diam auctor nibhe eget eget elementum lobortis ante massa quis dui suspendisse massa. Curabitur condimentum accumsan risus et porta nam ut nisi metus. Praesent orci ante.”",
-    clientImageUrl: "assets/img/testimonial/client-info-01.png",
+    clientImageUrl: "assets/img/testimonial/hh-9.jpeg",
     variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
     clientName: "William Smith",
     clientTitle: "Digital Marketer",
@@ -1111,7 +1109,7 @@ const testimonialData = [
     quoteImageUrl: "assets/img/testimonial/01.png",
     quoteText:
       "“This company truly understands digital marketing. Their strategies brought impressive results, and their team is incredibly supportive. Highly recommend for anyone looking to boost their online presence.”",
-    clientImageUrl: "assets/img/testimonial/client-info-02.png",
+    clientImageUrl: "assets/img/testimonial/hh-10.jpeg",
     variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
     clientName: "Jane Doe",
     clientTitle: "CEO, Tech Solutions",
@@ -1122,7 +1120,7 @@ const testimonialData = [
     quoteImageUrl: "assets/img/testimonial/01.png",
     quoteText:
       "“Exceptional service and deep expertise in SEO. They helped us rank higher and significantly increased our organic traffic. A pleasure to work with, always delivering more than expected.”",
-    clientImageUrl: "assets/img/testimonial/client-info-03.png",
+    clientImageUrl: "assets/img/testimonial/hh-9.jpeg",
     variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
     clientName: "Alex Johnson",
     clientTitle: "Marketing Director",
@@ -1133,7 +1131,7 @@ const testimonialData = [
     quoteImageUrl: "assets/img/testimonial/01.png",
     quoteText:
       "“Their innovative approach to SEO truly stands out. We saw a remarkable improvement in our search engine rankings and overall online visibility. Highly professional and results-driven team.”",
-    clientImageUrl: "assets/img/testimonial/client-info-01.png",
+    clientImageUrl: "assets/img/testimonial/hh-10.jpeg",
     variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
     clientName: "Sarah Connor",
     clientTitle: "Business Owner",
@@ -1144,7 +1142,7 @@ const testimonialData = [
     quoteImageUrl: "assets/img/testimonial/01.png",
     quoteText:
       "“Working with them was a game-changer for our brand. The digital marketing campaigns were highly effective, leading to a significant increase in conversions and customer engagement. Fantastic work!”",
-    clientImageUrl: "assets/img/testimonial/client-info-02.png",
+    clientImageUrl: "assets/img/testimonial/hh-9.jpeg",
     variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
     clientName: "David Lee",
     clientTitle: "Brand Manager",
@@ -1155,7 +1153,7 @@ const testimonialData = [
     quoteImageUrl: "assets/img/testimonial/01.png",
     quoteText:
       "“The team went above and beyond to optimize our website. Their insights and execution were flawless, resulting in a strong return on investment. A top-tier agency for all your digital needs.”",
-    clientImageUrl: "assets/img/testimonial/client-info-03.png",
+    clientImageUrl: "assets/img/testimonial/hh-10.jpeg",
     variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
     clientName: "Emily White",
     clientTitle: "Creative Director",

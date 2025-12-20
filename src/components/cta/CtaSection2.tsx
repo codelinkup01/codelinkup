@@ -8,28 +8,30 @@ const CtaSection2 = () => {
         <div className="cta-support-wrapper zoom-effect-style">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <div className="cta-support-img">
+             <div className="cta-support-img" style={{paddingTop: "10px", paddingBottom: "20px", marginTop: "-15px",}}>
                 <Image
-                  src="assets/img/cta/cta-left.png"
+                  src="assets/img/cta/hh-4.avif"
                   alt="img"
+                  
                   width={586}
                   height={485}
                 />
               </div>
             </div>
-            <div className="col-lg-6 mt-3 mt-lg-0">
+            <div className="col-lg-6 mt-3 mt-lg-3 ">
               <div className="cta-support-content">
                 <div className="section-title text-start">
                   <span className="text-white fade-in">24/7 Support</span>
                   <h2 className="text-white char-animation">
-                    24/7 Customer Support Services from Our SEOZ
+                    24/7 Customer Support Services from Our Codelinkkup
                   </h2>
                 </div>
                 <p className="cta-support-text">
-                  Welcome to SEOZ your trusted partner for comprehensive SEO and
+                  Welcome to Codelinkup your trusted partner for comprehensive SEO and
                   digital marketing solutions with our proven expertise
                 </p>
-                <div className="cta-support-box fade-in">
+               <div
+                 className="cta-support-box fade-in" style={{ padding: "20px 24px" }}>
                   <Link to="/contact" className="theme-btn">
                     Contact Us
                     <i className="far fa-arrow-right"></i>

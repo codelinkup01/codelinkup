@@ -12,14 +12,14 @@ const ProjectSection: React.FC = () => {
   return (
     <section className="project-section-3 fix section-padding">
       <div className="container">
-        <div className="section-title text-center">
+        {/* <div className="section-title text-center">
           <span className="fade-in">Our Case Study</span>
           <h2 className="char-animation">
             View Our Handpicked Digital <br /> Marketing Case Study
           </h2>
-        </div>
+        </div> */}
 
-        <div className="project-wrapper project-slide-animation-1">
+        {/* <div className="project-wrapper project-slide-animation-1">
           {homeOneProjectData.map((project, index) => (
             <div
               key={project.id}
@@ -52,7 +52,7 @@ const ProjectSection: React.FC = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

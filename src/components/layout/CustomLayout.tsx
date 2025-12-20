@@ -1,8 +1,8 @@
 import React from "react";
-import HeaderSection2 from "../header/HeaderSection2";
+import HeaderSection from "../header/HeaderSection";
 import CtaSection6 from "../cta/CtaSection6";
 import ContactInfoSection from "../contact/ContactInfoSection";
-import FooterSection2 from "../footer/FooterSection2";
+import FooterSection from "../footer/FooterSection";
 import SectionErrorBoundary from "../error-boundaries/SectionErrorBoundary";
 import MobileMenuModal from "../modal/MobileMenuModal";
 import { useCustomContext } from "../../context/context";
@@ -14,7 +14,7 @@ const CustomLayout = ({ children }: Props) => {
   return (
     <>
       <SectionErrorBoundary sectionName="Header">
-        <HeaderSection2 variant />
+        <HeaderSection variant />
       </SectionErrorBoundary>
 
       {children}
@@ -28,7 +28,7 @@ const CustomLayout = ({ children }: Props) => {
       </SectionErrorBoundary>
 
       <SectionErrorBoundary sectionName="Footer">
-        <FooterSection2 variant />
+        <FooterSection />
       </SectionErrorBoundary>
       <SectionErrorBoundary sectionName="Mobile Menu">
         <MobileMenuModal isOpen={isMenuOpen} toggle={toggleMobileMenu} />
