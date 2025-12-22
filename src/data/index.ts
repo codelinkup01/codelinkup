@@ -1,5 +1,5 @@
 const aboutCompanyData = [
-  { 
+  {      
     id: 1,
     iconClass: "flaticon-video-marketing-1",
     iconStyleClass: "",
