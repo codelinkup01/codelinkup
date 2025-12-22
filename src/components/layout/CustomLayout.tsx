@@ -14,7 +14,7 @@ const CustomLayout = ({ children }: Props) => {
   return (
     <>
       <SectionErrorBoundary sectionName="Header">
-        <HeaderSection variant />
+        <HeaderSection />
       </SectionErrorBoundary>
 
       {children}

@@ -81,7 +81,7 @@ const AboutSection6 = () => {
             <div className="col-lg-6">
               <div className="about-image">
                 <Image
-                  src="assets/img/about/about-05.png"
+                  src="assets/img/about/aboutttt.avif"
                   alt="img"
                   width={636}
                   height={600}

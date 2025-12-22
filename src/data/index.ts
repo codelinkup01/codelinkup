@@ -1,5 +1,5 @@
 const aboutCompanyData = [
-  {         
+  {      
     id: 1,
     iconClass: "flaticon-video-marketing-1",
     iconStyleClass: "",
@@ -500,13 +500,13 @@ const homeFourProjectData = [
     id: 1,
     title: "Search Engine Optimization",
     description:
-      "A progressive automatic dialer makes one call after another with a predefined time gap in between each, so the agent can easily manage calls",
+      "A progressive automatic dialer makes one call after another with a predefined time gap.",
     link: "/project/seo-campaign-analytics",
-    imgSrc: "assets/img/project/10.jpg",
-    colClass: "col-lg-7",
+    imgSrc: "assets/img/project/seeo.jpg",
+    colClass: "col-lg-5",
     itemStyleClass: "style-1",
-    width: 683,
-    height: 238,
+    width: 724,
+    height: 504,
   },
   {
     id: 2,
@@ -514,7 +514,7 @@ const homeFourProjectData = [
     description:
       "We pride ourselves on delivering a value proposition that goes beyond expectations.",
     link: "/project/seo-campaign-analytics",
-    imgSrc: "assets/img/project/11.jpg",
+    imgSrc: "assets/img/project/Engaging-Content-1x.jpg",
     colClass: "col-lg-5",
     itemStyleClass: "style-2",
     width: 476,
@@ -526,7 +526,7 @@ const homeFourProjectData = [
     description:
       "A progressive automatic dialer makes one call after another with a predefined time gap in between each, so the agent can easily manage calls",
     link: "/project/seo-campaign-analytics",
-    imgSrc: "assets/img/project/12.jpg",
+    imgSrc: "assets/img/project/cross-promotion.webp",
     colClass: "col-lg-12",
     itemStyleClass: "style-3",
     width: 691,
@@ -1099,10 +1099,9 @@ const testimonialData = [
     id: 1,
     stars: 5,
     quoteImageUrl: "assets/img/testimonial/01.png",
-    quoteText:
-      "“Etiam viverra purus sed aliquet tincidunt diam auctor nibhe eget eget elementum lobortis ante massa quis dui suspendisse massa. Curabitur condimentum accumsan risus et porta nam ut nisi metus. Praesent orci ante.”",
+    quoteText: "“Etiam viverra purus sed aliquet tincidunt...”",
     clientImageUrl: "assets/img/testimonial/hh-9.jpeg",
-    variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
+    variantClientImageUrl: "assets/img/testimonial/hh-9.jpeg",
     clientName: "William Smith",
     clientTitle: "Digital Marketer",
   },
@@ -1110,10 +1109,9 @@ const testimonialData = [
     id: 2,
     stars: 5,
     quoteImageUrl: "assets/img/testimonial/01.png",
-    quoteText:
-      "“This company truly understands digital marketing. Their strategies brought impressive results, and their team is incredibly supportive. Highly recommend for anyone looking to boost their online presence.”",
+    quoteText: "“This company truly understands digital marketing...”",
     clientImageUrl: "assets/img/testimonial/hh-10.jpeg",
-    variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
+    variantClientImageUrl: "assets/img/testimonial/hh-10.jpeg",
     clientName: "Jane Doe",
     clientTitle: "CEO, Tech Solutions",
   },
@@ -1121,10 +1119,9 @@ const testimonialData = [
     id: 3,
     stars: 5,
     quoteImageUrl: "assets/img/testimonial/01.png",
-    quoteText:
-      "“Exceptional service and deep expertise in SEO. They helped us rank higher and significantly increased our organic traffic. A pleasure to work with, always delivering more than expected.”",
+    quoteText: "“Exceptional service and deep expertise in SEO...”",
     clientImageUrl: "assets/img/testimonial/hh-9.jpeg",
-    variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
+    variantClientImageUrl: "assets/img/testimonial/hh-9.jpeg",
     clientName: "Alex Johnson",
     clientTitle: "Marketing Director",
   },
@@ -1132,10 +1129,9 @@ const testimonialData = [
     id: 4,
     stars: 5,
     quoteImageUrl: "assets/img/testimonial/01.png",
-    quoteText:
-      "“Their innovative approach to SEO truly stands out. We saw a remarkable improvement in our search engine rankings and overall online visibility. Highly professional and results-driven team.”",
-    clientImageUrl: "assets/img/testimonial/hh-10.jpeg",
-    variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
+    quoteText: "“Their innovative approach to SEO truly stands out...”",
+    clientImageUrl: "assets/img/testimonial/hh-9.jpeg",
+    variantClientImageUrl: "assets/img/testimonial/hh-9.jpeg",
     clientName: "Sarah Connor",
     clientTitle: "Business Owner",
   },
@@ -1143,10 +1139,9 @@ const testimonialData = [
     id: 5,
     stars: 5,
     quoteImageUrl: "assets/img/testimonial/01.png",
-    quoteText:
-      "“Working with them was a game-changer for our brand. The digital marketing campaigns were highly effective, leading to a significant increase in conversions and customer engagement. Fantastic work!”",
+    quoteText: "“Working with them was a game-changer for our brand...”",
     clientImageUrl: "assets/img/testimonial/hh-9.jpeg",
-    variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
+    variantClientImageUrl: "assets/img/testimonial/hh-9.jpeg",
     clientName: "David Lee",
     clientTitle: "Brand Manager",
   },
@@ -1154,14 +1149,14 @@ const testimonialData = [
     id: 6,
     stars: 5,
     quoteImageUrl: "assets/img/testimonial/01.png",
-    quoteText:
-      "“The team went above and beyond to optimize our website. Their insights and execution were flawless, resulting in a strong return on investment. A top-tier agency for all your digital needs.”",
+    quoteText: "“The team went above and beyond to optimize our website...”",
     clientImageUrl: "assets/img/testimonial/hh-10.jpeg",
-    variantClientImageUrl: "assets/img/testimonial/testimonial-details-01.png",
+    variantClientImageUrl: "assets/img/testimonial/hh-10.jpeg",
     clientName: "Emily White",
     clientTitle: "Creative Director",
   },
 ];
+
 
 const teamData = [
   {

@@ -18,7 +18,6 @@ const ServicePage = () => {
         <TestimonySection6 />
         <FaqSection2 variant reverse />
     </CustomLayout>
-  );
-};
+  );};
 
 export default ServicePage;

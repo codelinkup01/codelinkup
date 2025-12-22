@@ -1797,7 +1797,7 @@ p {
 
 .breadcrumb-section {
   position: relative;
-  background-image: url(/assets/img/breadcrumb.jpg);
+  background-image: url(/assets/img/breadcrumb.jpeg);
 }
 
 .page-heading {
@@ -4637,6 +4637,7 @@ p {
 }
 .project-wrapper-4 .project-box-5.style-2 {
   background-color: #6c57d2;
+  padding-right: 35px;
 }
 .project-wrapper-4 .project-box-5.style-2 .content {
   max-width: 330px;
@@ -4651,20 +4652,35 @@ p {
 .project-wrapper-4 .project-box-5.style-3 .image {
   max-width: 691px;
   margin-top: 0;
+  bottom: auto;
 }
+
+
 .project-wrapper-4 .project-box-5.style-3 .content {
   max-width: 390px;
 }
+// .project-wrapper-4 .project-box-5.style-1 {
+//   height: calc(100% - 30px);
+//   position: relative;
+//   padding-right: 30px;
+// }
 .project-wrapper-4 .project-box-5.style-1 {
-  height: calc(100% - 30px);
   position: relative;
   padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 .project-wrapper-4 .project-box-5.style-1 .image {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  position: relative;    
+  margin-bottom: 20px;   
 }
+.style-1 img {
+  display: block;
+  border-radius: 12px;
+}
+
+
 
 .project-details-wrapper .project-details-content .project-details-image img {
   width: 100%;
@@ -5061,15 +5077,36 @@ p {
   color: $white;
 }
 .array-button.style-2 .array-prev {
-  border: 1px solid $border;
+  border: 1px solid $border ;
+    margin-bottom: 20px;
 }
-.array-button.style-2 .array-next {
+.style-2 img {
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 12px;
+
+}
+
+.project-wrapper-4 .project-box-5.style-2 {
+  position: relative;
+  padding-bottom: 30px; 
+}
+
+.project-wrapper-4 .project-box-5.style-2.image {
+  position: absolute;
+  right: 0;
+}
+
+
+
+.array-button.style- .array-next {
   border: 1px solid $theme-color;
   background-color: $theme-color;
   color: $white;
 }
 .array-button.style-2 .array-next:hover {
   background-color: $header;
+  justify-content: center;
 }
 
 /* background */
@@ -9312,6 +9349,7 @@ h3.service-header-5 {
 
   .project-wrapper-4 .project-box-5.style-3 .image {
     margin-top: 30px !important;
+     display: block;
   }
 }
 

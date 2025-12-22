@@ -76,7 +76,7 @@ const FaqSection2 = ({ variant, reverse }: Props) => {
               >
                 {variant ? (
                   <Image
-                    src="assets/img/faq-2.png"
+                    src="assets/img/cta/hh-4.avif"
                     alt="FAQ illustration"
                     width={596}
                     height={604}

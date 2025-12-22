@@ -5,7 +5,7 @@ import BrandSection from "../components/brand/BrandSection";
 import BreadcrumbSection from "../components/breadcrumb/BreadcrumbSection";
 import FaqSection2 from "../components/faq/FaqSection2";
 import CustomLayout from "../components/layout/CustomLayout";
-import PricingSection from "../components/pricing/PricingSection";
+// import PricingSection from "../components/pricing/PricingSection";
 import ProjectSection4 from "../components/project/ProjectSection4";
 import TestimonySection5 from "../components/testimony/TestimonySection5";
 const AboutPage = () => {
@@ -16,7 +16,7 @@ const AboutPage = () => {
         <ProjectSection4 variant />
         <AboutSection6 />
         <BrandSection variant="style-3" />
-        <PricingSection />
+        {/* <PricingSection /> */}
         <TestimonySection5 />
         <BlogSection2 variant />
         <FaqSection2 variant />

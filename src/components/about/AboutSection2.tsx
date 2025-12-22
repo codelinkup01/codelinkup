@@ -27,7 +27,7 @@ const AboutSection2 = ({ variant }: Props) => {
             <div className="col-lg-6">
               <div className={`about-img ${variant ? "" : "agn-choose-5-img"}`}>
                 <Image
-                  src="assets/img/about/about-2-01.png"
+                  src="assets/img/about/aboutttt.avif"
                   alt="img"
                   width={639}
                   height={669}
