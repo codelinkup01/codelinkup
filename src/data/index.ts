@@ -8,7 +8,7 @@ const aboutCompanyData = [
       "our strategy includes consistently evolving, to ensure we’re producing exceptional SEO for business. Nullam vel accumsan nisi.",
     extraClass: "item_right_1",
   },
-  {
+  {  
     id: 2,
     iconClass: "flaticon-presentation",
     iconStyleClass: "style-2",
