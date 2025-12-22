@@ -935,6 +935,7 @@ const services = [
       "We provide result-driven digital marketing solutions to increase your brand visibility, reach the right audience, and generate quality leads.",
     width: 87,
     height: 84,
+    slug: "digital-marketing-services",
   },
   {
     id: 2,
@@ -946,6 +947,7 @@ const services = [
       "We offer professional web development services to create fast, secure, and user-friendly websites tailored to your business needsOur websites are responsive, scalable, and designed to deliver a seamless user experience across all devices.",
     width: 85,
     height: 88,
+    slug: "web-development",
   },
   {
     id: 3,
@@ -958,6 +960,7 @@ const services = [
     slug: "App-development",
     width: 87,
     height: 84,
+    
   },
   {
     id: 4,
@@ -971,54 +974,54 @@ const services = [
     width: 85,
     height: 88,
   },
-  {
-    id: 5,
-    iconClass: "flaticon-seo",
-    detailImg: "assets/img/service/service-details-01.jpg",
-    iconBgImg: "assets/img/service/icon-bg-5.png",
-    title: "Market Analysis\nSolutions",
-    description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
-    slug: "market-analysis-solutions",
-    width: 85,
-    height: 87,
-  },
-  {
-    id: 6,
-    iconClass: "flaticon-email-marketing-1",
-    detailImg: "assets/img/service/service-details-02.jpg",
-    iconBgImg: "assets/img/service/icon-bg-6.png",
-    title: "Creative Content\nProduction",
-    description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
-    slug: "creative-content-production",
-    width: 87,
-    height: 85,
-  },
-  {
-    id: 7,
-    iconClass: "flaticon-performance",
-    detailImg: "assets/img/service/service-details-03.jpg",
-    iconBgImg: "assets/img/service/icon-bg-7.png",
-    title: "Online Marketing\nStrategy",
-    description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
-    slug: "online-marketing-strategy",
-    width: 85,
-    height: 87,
-  },
-  {
-    id: 8,
-    iconClass: "flaticon-email-marketing",
-    detailImg: "assets/img/service/service-details-04.jpg",
-    iconBgImg: "assets/img/service/icon-bg-8.png",
-    title: "Production Data\nAnalytics",
-    description:
-      "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
-    slug: "production-data-analytics",
-    width: 87,
-    height: 85,
-  },
+  // {
+  //   id: 5,
+  //   iconClass: "flaticon-seo",
+  //   detailImg: "assets/img/service/service-details-01.jpg",
+  //   iconBgImg: "assets/img/service/icon-bg-5.png",
+  //   title: "Market Analysis\nSolutions",
+  //   description:
+  //     "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
+  //   slug: "market-analysis-solutions",
+  //   width: 85,
+  //   height: 87,
+  // },
+  // {
+  //   id: 6,
+  //   iconClass: "flaticon-email-marketing-1",
+  //   detailImg: "assets/img/service/service-details-02.jpg",
+  //   iconBgImg: "assets/img/service/icon-bg-6.png",
+  //   title: "Creative Content\nProduction",
+  //   description:
+  //     "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
+  //   slug: "creative-content-production",
+  //   width: 87,
+  //   height: 85,
+  // },
+  // {
+  //   id: 7,
+  //   iconClass: "flaticon-performance",
+  //   detailImg: "assets/img/service/service-details-03.jpg",
+  //   iconBgImg: "assets/img/service/icon-bg-7.png",
+  //   title: "Online Marketing\nStrategy",
+  //   description:
+  //     "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
+  //   slug: "online-marketing-strategy",
+  //   width: 85,
+  //   height: 87,
+  // },
+  // {
+  //   id: 8,
+  //   iconClass: "flaticon-email-marketing",
+  //   detailImg: "assets/img/service/service-details-04.jpg",
+  //   iconBgImg: "assets/img/service/icon-bg-8.png",
+  //   title: "Production Data\nAnalytics",
+  //   description:
+  //     "Our strategy includes consistently evolving, to ensure we're producing exceptional SEO for business. Nullam vel accumsan nisi.",
+  //   slug: "production-data-analytics",
+  //   width: 87,
+  //   height: 85,
+  // },
 ];
 
 const homeOneServices = [
