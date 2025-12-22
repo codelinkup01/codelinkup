@@ -5,11 +5,12 @@ import ServiceDetailSection from "../components/service/ServiceDetailSection";
 import { services } from "../data";
 import { useParams } from "react-router-dom";
 
-const ServiceDetailPage = () => {
-  const { slug } = useParams();
 
-  const currentIndex = services.findIndex((item) => item.slug === slug);
-  const serviceInfo = services[currentIndex];
+
+const ServiceDetailPage = () => {
+   const { slug } = useParams<{ slug: string }>();
+
+   const serviceInfo = services.find(item => item.slug === slug);
   return (
     <CustomLayout>
       <BreadcrumbSection title={serviceInfo ? "Service Details" : "404 Page"} />

@@ -12,7 +12,7 @@ import HeaderSection from "../components/header/HeaderSection";
 import HeroSection from "../components/hero/HeroSection";
 import MobileMenuModal from "../components/modal/MobileMenuModal";
 // import PricingSection from "../components/pricing/PricingSection";
-import ProjectSection from "../components/project/ProjectSection";
+// import ProjectSection from "../components/project/ProjectSection";
 import ServiceSection from "../components/service/ServiceSection";
 import ServiceSection2 from "../components/service/ServiceSection2";
 import TestimonySection from "../components/testimony/TestimonySection";
@@ -32,7 +32,7 @@ const HomePage1 = () => {
         <CounterSection />
         {/* <PricingSection /> */}
         <CtaSection />
-        <ProjectSection />
+        {/* <ProjectSection /> */}
         <TestimonySection />
         <CtaSection2 />
         <FaqSection />
