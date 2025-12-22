@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { menuData } from "../../data";
 import type { MenuItem } from "../../types";
 import { Link } from "react-router-dom";
-import Image from "../utils/Image";
+// import Image from "../utils/Image";
 
 const MainMenuSection = React.memo(() => {
   // Memoize the entire menu structure to prevent re-computation

@@ -11,7 +11,7 @@ interface Props {
 
 const Image = forwardRef<HTMLImageElement, Props>(
   ({ src, alt, width, height, className = "", ...rest }, ref) => {
-    const basePath = import.meta.env.VITE_APP_BASE_PATH;
+    // const basePath = import.meta.env.VITE_APP_BASE_PATH;
     return (
       <img
         ref={ref}
