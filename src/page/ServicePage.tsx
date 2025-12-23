@@ -3,7 +3,7 @@ import CoreAdvantageSection from "../components/core-advantage/CoreAdvantageSect
 import CounterSection from "../components/counter/CounterSection";
 import FaqSection2 from "../components/faq/FaqSection2";
 import CustomLayout from "../components/layout/CustomLayout";
-import PricingSection from "../components/pricing/PricingSection";
+// import PricingSection from "../components/pricing/PricingSection";
 import TestimonySection6 from "../components/testimony/TestimonySection6";
 import ServiceSection3 from "../components/service/ServiceSection3";
 
@@ -14,7 +14,7 @@ const ServicePage = () => {
         <ServiceSection3 mainSection />
         <CoreAdvantageSection variant />
         <CounterSection variant="style-3" />
-        <PricingSection />
+        {/* <PricingSection /> */}
         <TestimonySection6 />
         <FaqSection2 variant reverse />
     </CustomLayout>

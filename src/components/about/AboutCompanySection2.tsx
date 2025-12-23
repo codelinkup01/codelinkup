@@ -23,9 +23,9 @@ const AboutCompanySection2 = () => {
                 <div
                   className={`about-feature-box-3 ${feature.extraClass || ""}`}
                   data-aos="fade-up"
-                  data-aos-delay={index * 200} // stagger delay for each card
-                  data-aos-duration="1000" // smooth animation duration
-                  data-aos-easing="ease-out-cubic" // smooth easing
+                  data-aos-delay={index * 200} 
+                  data-aos-duration="1000" 
+                  data-aos-easing="ease-out-cubic" 
                   data-aos-once="true"
                 >
                   <div className="about-feature-icon">
