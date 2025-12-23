@@ -60,6 +60,7 @@ const HeaderSection = ({ variant }: Props) => {
                   Support: <a href="tel:88812345678">(888) 1234-5678</a>
                 </div>
               )}
+              
               {/* {variant ? (
                 <div className="header-button">
                   <Link to="/contact" className="theme-btn">
@@ -78,7 +79,7 @@ const HeaderSection = ({ variant }: Props) => {
                 <div
                   className="sidebar__toggle"
                   role="button"
-                  onAbort={toggleMobileMenu}
+                  onClick = {toggleMobileMenu}
                 >
                   <i className="fal fa-bars"></i>
                 </div>

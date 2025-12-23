@@ -607,15 +607,15 @@ const menuData = [
   //   ],
   // },
   {
-    title: "Pages",
-    link: "#",
+    title: "About us",
+    link: "/about",
     hasDropdown: true,
     submenu: [
-      {
-        title: "About Us",
-        link: "/about",
-        hasDropdown: false,
-      },
+      // {
+      //   title: "About Us",
+      //   link: "/about",
+      //   hasDropdown: false,
+      // },
       {
         title: "team",
         link: "/team",

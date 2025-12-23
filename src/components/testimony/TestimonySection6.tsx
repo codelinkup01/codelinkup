@@ -15,13 +15,9 @@ const TestimonySection6 = () => {
             </h2>
           </div>
           <p className="fade-in">
-            Walleye poolfish sand goby butterfly ray stream catfish jewfish
-            spanish.
-            <br />
-            Stream catfish jewfish spanish ballan wrasse climbing gourami amur
-            pike
-            <br />
-            arctic char steelhead sprat sea lamprey grunion.
+           Working with this team was a game-changer for our business. 
+            <br /> Their expertise, timely delivery, and clear communication helped us achieve results beyond our expectations.
+             <br /> 
           </p>
         </div>
 
@@ -44,10 +40,10 @@ const TestimonySection6 = () => {
                 <div className="client-info">
                   <div className="client-img">
                     <Image
-                      src="assets/img/testimonial/testimonial-6-01.png"
+                      src="assets/img/testimonial/testimonial-6-01.webp"
                       alt="img"
-                      width={329}
-                      height={57}
+                      width={300}
+                      height={150}
                     />
                   </div>
                 </div>

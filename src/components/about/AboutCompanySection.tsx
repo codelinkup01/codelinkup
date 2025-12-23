@@ -52,10 +52,7 @@ const AboutCompanySection = () => {
                 </div>
 
                 <p className="about-text mt-2">
-                  Walleye poolfish sand goby butterfly ray stream catfish
-                  jewfish spanish. Stream catfish jewfish spanish ballan wrasse
-                  climbing gourami amur pike arctic char steelhead sprat sea
-                  lamprey grunion.
+                 “Working with this team was a game-changer for our business. Their expertise, timely delivery, and clear communication helped us achieve results beyond our expectations.”
                 </p>
                 <p>
                   Stream catfish jewfish spanish ballan wrasse climbing gourami

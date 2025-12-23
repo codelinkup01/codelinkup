@@ -55,10 +55,9 @@ const TestimonySection5 = () => {
             </h2>
           </div>
           <p>
-            Walleye poolfish sand goby butterfly ray stream catfish jewfish
-            spanish.
-            <br /> Stream catfish jewfish spanish ballan wrasse climbing gourami
-            amur pike <br /> arctic char steelhead sprat sea lamprey grunion.
+            Working with this team was a game-changer for our business. 
+            <br /> Their expertise, timely delivery, and clear communication helped us achieve results beyond our expectations.
+             <br /> 
           </p>
         </div>
         <div className="row justify-content-center">

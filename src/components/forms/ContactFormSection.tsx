@@ -75,7 +75,7 @@ const ContactFormSection = ({ variant }: Props) => {
         return;
       }
 
-      // ✅ allow FormSubmit
+     
       toast.success("Sending message...");
     },
     []

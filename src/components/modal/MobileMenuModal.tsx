@@ -18,11 +18,10 @@ const MobileMenuModal = ({ isOpen, toggle }: MobileMenuModalProps) => {
                 <div className="offcanvas__logo">
                   <Link to="/">
                     <Image
-                      src="assets/img/logo/black-logo.svg"
+                      src="assets/img/logo/fav-logo.jpg"
                       alt="logo-img"
-                      width={150}
-                      height={52}
-                    />
+                      width={120}
+                      height={80}                    />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -33,7 +32,7 @@ const MobileMenuModal = ({ isOpen, toggle }: MobileMenuModalProps) => {
               </div>
               <h3 className="offcanvas-title">Hello There!</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,{" "}
+                Welcome to CodeLinkup <br /> Explore what exactly you are looking for,{" "}
               </p>
               <MobileMenu />
               <div className="social-icon d-flex align-items-center">
@@ -63,7 +62,7 @@ const MobileMenuModal = ({ isOpen, toggle }: MobileMenuModalProps) => {
                   </li>
                   <li>
                     <span>Email:</span>
-                    <a href="mailto:helloseoz@gmial.com">helloseoz@gmial.com</a>
+                    <a href="mailto:info@codelinkup.com">info@codelinkup.com</a>
                   </li>
                 </ul>
               </div>

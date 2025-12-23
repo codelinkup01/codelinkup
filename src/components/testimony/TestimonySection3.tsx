@@ -23,7 +23,7 @@ const TestimonySection3 = () => {
             </h2>
           </div>
           <p>
-            Welcome to SEOZ your trusted partner for comprehensive SEO and
+            Welcome to Codelinkup your trusted partner for comprehensive SEO and
             <br /> digital marketing solutions with our proven expertise
           </p>
         </div>
