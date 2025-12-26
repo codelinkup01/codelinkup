@@ -16,8 +16,8 @@ const TestimonySection6 = () => {
           </div>
           <p className="fade-in">
            Working with this team was a game-changer for our business. 
-            <br /> Their expertise, timely delivery, and clear communication helped us achieve results beyond our expectations.
-             <br /> 
+            <br/> Their expertise, timely delivery, and clear communication helped us achieve results beyond our expectations.
+             <br/> 
           </p>
         </div>
 
@@ -58,7 +58,7 @@ const TestimonySection6 = () => {
                 autoplay={{
                   delay: 1000,
                   disableOnInteraction: false,
-                }}
+                  }}
                 pagination={{
                   el: ".swiper-dot3",
                   clickable: true,

@@ -14,13 +14,10 @@ const FooterBottomSection = ({ variant }: Props) => {
 
           <ul className="footer-menu">
             <li>
-              <Link to="/contact">Privacy policy.</Link>
+              <Link to="/privacy">Privacy policy.</Link>
             </li>
             <li>
-              <Link to="/contact">Terms of use.</Link>
-            </li>
-            <li>
-              <Link to="/contact">Site map.</Link>
+              <Link to="/termsandconditions">Terms And Conditions.</Link>
             </li>
           </ul>
         </div>

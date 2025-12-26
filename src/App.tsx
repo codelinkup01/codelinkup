@@ -21,7 +21,8 @@ import ServiceDetailPage from "./page/ServiceDetailPage";
 import TeamPage from "./page/TeamPage";
 import TeamDetailPage from "./page/TeamDetailPage";
 import NotFoundPage from "./page/NotFoundPage";
-
+import PrivacyPage from "./page/PrivacyPolicyPage";
+import TermsAndConditions from "./page/TermsAndConditions";
 function App() {
   return (
     <Router>
@@ -44,6 +45,8 @@ function App() {
           <Route path="/team" element={<TeamPage />} />
           <Route path="/team/:slug" element={<TeamDetailPage />} />
           <Route path="*" element={<NotFoundPage />} />
+          <Route path="/privacy" element={<PrivacyPage />} />
+          <Route path="/termsandconditions" element={<TermsAndConditions />} />
         </Routes>
         <AnimationWrapper />
         <BackToTopBtn />
