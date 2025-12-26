@@ -17,7 +17,13 @@ const FooterBottomSection = ({ variant }: Props) => {
               <Link to="/privacy">Privacy policy.</Link>
             </li>
             <li>
-              <Link to="/termsandconditions">Terms And Conditions.</Link>
+              <Link to="/termsandconditions">Terms&Conditions.</Link>
+            </li>
+            <li>
+              <Link to="/gdpr">GDPR</Link>
+            </li>
+            <li>
+              <Link to="cookiepolicies">Cookie Policies</Link>
             </li>
           </ul>
         </div>

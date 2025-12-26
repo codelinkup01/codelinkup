@@ -23,6 +23,8 @@ import TeamDetailPage from "./page/TeamDetailPage";
 import NotFoundPage from "./page/NotFoundPage";
 import PrivacyPage from "./page/PrivacyPolicyPage";
 import TermsAndConditions from "./page/TermsAndConditions";
+import GDPR from "./page/GDPR";
+import CookiePolicies from "./page/CookiePolicies";
 function App() {
   return (
     <Router>
@@ -47,6 +49,8 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/termsandconditions" element={<TermsAndConditions />} />
+          <Route path="/gdpr" element={<GDPR />} />
+          <Route path="/cookiepolicies" element={<CookiePolicies />} />
         </Routes>
         <AnimationWrapper />
         <BackToTopBtn />
