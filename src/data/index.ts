@@ -569,23 +569,74 @@ const menuData = [
   },
   {
     title: "Services",
-    link: "/service",
+    link: "/#",
     hasDropdown: true,
     submenu: [
       {
-        title: "Digital Marketing",
-        link: "/service",
+        title: "Digital Solutions",
+         link: "/#",
+        hasDropdown: true,
+         submenu: [
+      {
+        title: "Website Design and Development",
+        link: "/#",
         hasDropdown: false,
       },
       {
-        title: "Consultancy",
-        link: "/service/advanced-data-analytics",
+        title: "Web Application Development",
+        link: "/#",
         hasDropdown: false,
       },
-       {
-        title: "Web Solution",
-        link: "/service/advanced-data-analytics",
+      {
+        title: "App Development",
+        link: "/#",
         hasDropdown: false,
+      },
+    ],
+      },
+      {
+        title: "IT Infrastructure",
+        link: "/#",
+        hasDropdown: true,
+         submenu: [
+      {
+        title: "IT Consulting",
+        link: "/#",
+        hasDropdown: false,
+      },
+      {
+        title: "IT Support and Infrastructure",
+        link: "/#",
+        hasDropdown: false,
+      },
+      {
+        title: "IT Products and Hardware",
+        link: "/#",
+        hasDropdown: false,
+      },
+    ],
+      },
+       {
+        title: "Cloud Services",
+        link: "/#",
+        hasDropdown: true,
+         submenu: [
+      {
+        title: "Cloud Migration",
+        link: "/#",
+        hasDropdown: false,
+      },
+      {
+        title: "Cloud Management & Security",
+        link: "/#",
+        hasDropdown: false,
+      },
+      {
+        title: "Backup and Disaster Recovery",
+        link: "/#",
+        hasDropdown: false,
+      },
+    ],
       },
     ],
   },
